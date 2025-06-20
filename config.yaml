@@ -1,0 +1,31 @@
+# config.yaml
+
+input_dir: "chemin/vers/dossier_txt"            # Remplacez par le chemin de votre dossier de fichiers .txt
+output_dir: "chemin/vers/dossier_embeddings"    # Remplacez par le chemin où vous souhaitez enregistrer les embeddings
+
+# Clés API OpenAI. Vous pouvez soit les inscrire directement ici (non recommandé pour des raisons de sécurité),
+# soit spécifier un fichier contenant les clés API.
+# openai_api_keys:
+#   - "votre_clé_api_1"
+#   - "votre_clé_api_2"
+api_keys_file: "api_keys.txt"                    # Chemin vers le fichier contenant vos clés API OpenAI
+
+# Paramètres de découpage du texte
+chunk_size: 1200
+overlap_size: 100
+embedding_model: "text-embedding-ada-002"        # Modèle d'embedding à utiliser
+
+# Paramètres de contextualisation LLM
+system_prompt: "You are an expert analyst. The following text is an excerpt from a larger document. Your task is to provide context for the next section by referencing the overall document content. Ensure the context helps in better understanding the excerpt."
+llm_max_tokens: 200
+
+# Configuration du logging
+logging:
+  level: "INFO"                                   # Niveau de logging : DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  file: "embedding_processor.log"                # Fichier de log
+  stream: true                                    # Afficher également les logs dans la console
+
+# Paramètres additionnels
+verbose: true                                     # Activer le logging détaillé
+max_workers: 10                                  # Nombre maximal de threads pour le traitement concurrent
