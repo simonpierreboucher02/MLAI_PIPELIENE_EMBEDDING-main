@@ -1,7 +1,40 @@
 # MLAI_PIPELINE_EMBEDDING
 
+<div align="center">
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)
+![OpenAI API](https://img.shields.io/badge/OpenAI-API-green.svg)
+![GPT-4](https://img.shields.io/badge/GPT--4-Enabled-orange.svg)
+![Embeddings](https://img.shields.io/badge/Embeddings-ADA--002-purple.svg)
+![Concurrent Processing](https://img.shields.io/badge/Concurrent-Processing-yellow.svg)
+![Rate Limiting](https://img.shields.io/badge/Rate%20Limiting-Supported-red.svg)
+![YAML Config](https://img.shields.io/badge/YAML-Configuration-lightgrey.svg)
+
+[![GitHub](https://img.shields.io/badge/GitHub-simonpierreboucher02-black?style=for-the-badge&logo=github)](https://github.com/simonpierreboucher02)
+[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/simonpierreboucher02)
+
+**🚀 Advanced Text Processing & Embedding Pipeline with GPT-4 Contextualization**
+
+</div>
+
+## 📊 Repository Metrics
+
+![GitHub repo size](https://img.shields.io/github/repo-size/simonpierreboucher02/MLAI_PIPELIENE_EMBEDDING-main)
+![GitHub language count](https://img.shields.io/github/languages/count/simonpierreboucher02/MLAI_PIPELIENE_EMBEDDING-main)
+![GitHub top language](https://img.shields.io/github/languages/top/simonpierreboucher02/MLAI_PIPELIENE_EMBEDDING-main)
+![GitHub last commit](https://img.shields.io/github/last-commit/simonpierreboucher02/MLAI_PIPELIENE_EMBEDDING-main)
+![GitHub issues](https://img.shields.io/github/issues/simonpierreboucher02/MLAI_PIPELIENE_EMBEDDING-main)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/simonpierreboucher02/MLAI_PIPELIENE_EMBEDDING-main)
+
+## 🎯 Features Overview
+
+- **🧠 AI-Powered Contextualization**: GPT-4 integration for intelligent text enhancement
+- **⚡ Concurrent Processing**: Multi-threaded architecture for optimal performance
+- **🔑 Multi-API Key Support**: Intelligent rate limiting with API key rotation
+- **📝 Smart Text Chunking**: Overlapping chunks with context preservation
+- **🎛️ Configurable Pipeline**: YAML-based configuration for easy customization
+- **📊 Comprehensive Logging**: Detailed processing workflow tracking
 
 ## Table of Contents
 
@@ -41,8 +74,8 @@ The pipeline handles:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/simonpierreboucher/MLAI_PIPELIENE_EMBEDDING.git
-   cd MLAI_PIPELIENE_EMBEDDING
+   git clone https://github.com/simonpierreboucher02/MLAI_PIPELIENE_EMBEDDING-main.git
+   cd MLAI_PIPELIENE_EMBEDDING-main
    ```
 
 2. **Create a Virtual Environment (Optional but Recommended)**
@@ -188,9 +221,15 @@ This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LIC
 For any questions or support, please contact:
 
 - **Author:** Simon Pierre Boucher
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **GitHub:** [simonpierreboucher](https://github.com/simonpierreboucher)
+- **GitHub:** [@simonpierreboucher02](https://github.com/simonpierreboucher02)
+- **Repository:** [MLAI_PIPELIENE_EMBEDDING-main](https://github.com/simonpierreboucher02/MLAI_PIPELIENE_EMBEDDING-main)
 
 ---
 
+<div align="center">
+
+**⭐ Star this repository if you find it useful!**
+
 © 2023 Simon Pierre Boucher. All rights reserved.
+
+</div>
